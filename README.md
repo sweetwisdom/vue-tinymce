@@ -4,11 +4,11 @@
 >
 > 湖北 ● 武汉
 
-![img](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/8373ab26138dc.png)
+![img](assert/README/8373ab26138dc.png)
 
 > vue 编辑器 inymce,款符合现代审美的富文本编辑器
 
-![1584673319950](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/1584673319950.png)
+![1584673319950](assert/README/1584673319950.png)
 
 # 前言
 
@@ -30,15 +30,15 @@
 
 ## 文本编辑
 
-![Honeycam 2020-03-20 11-10-41](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/Honeycam 2020-03-20 11-10-41.gif)
+![Honeycam 2020-03-20 11-10-41](assert/README/001.gif)
 
 ## 粘贴 word
 
-![Honeycam 2020-03-20 11-16-39](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/Honeycam 2020-03-20 11-16-39.gif)
+![Honeycam 2020-03-20 11-16-39](assert/README/002.gif)
 
 ## 粘贴网页|| 编辑器内容
 
-![Honeycam 2020-03-20 11-20-14](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/Honeycam 2020-03-20 11-20-14.gif)
+![Honeycam 2020-03-20 11-20-14](assert/README/003.gif)
 
 # 预览
 
@@ -72,13 +72,13 @@ npm install tinymce -S
 
 复制当前项目这两个文件到你的项目`public目录下`，然后使用
 
-![1584674576713](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/1584674576713.png)
+![1584674576713](assert/README/1584674576713.png)
 
 ## 组件封装
 
 如图：复制这个项目下的 `src\components\editor.vue`
 
-![1584674693401](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/1584674693401.png)
+![1584674693401](assert/README/1584674693401.png)
 
 ## 全局使用组件
 
@@ -137,4 +137,4 @@ toolbar: 'undo redo |  formatselect | bold italic forecolor backcolor | alignlef
 
 > 如果觉得这篇文章帮到你，请给个 star 或请我一杯咖啡 😋
 
-![1584675261579](https://gitee.com/sweetwisdom/vue-tinymce/raw/master/assert/README/1584675261579.png)
+![1584675261579](assert/README/1584675261579.png)
