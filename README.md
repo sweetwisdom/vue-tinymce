@@ -1,14 +1,14 @@
 # vue-tinymce-editor 使用教程
 
-> 2020年3月20日更新
+> 2020 年 3 月 20 日更新
 >
-> 湖北●武汉
+> 湖北 ● 武汉
 
- ![img](assert/README/8373ab26138dc.png) 
+![img](./assert/README/8373ab26138dc.png)
 
-> vue 编辑器inymce,款符合现代审美的富文本编辑器
+> vue 编辑器 inymce,款符合现代审美的富文本编辑器
 
-![1584673319950](assert/README/1584673319950.png)
+![1584673319950](./assert/README/1584673319950.png)
 
 # 前言
 
@@ -17,7 +17,7 @@
 # 特点
 
 - 支持表格编辑
-- word|135编辑器|网页 复制内容可保留大部分样式
+- word|135 编辑器|网页 复制内容可保留大部分样式
 - 支持代码块
 
 # 中文文档:
@@ -26,21 +26,19 @@
 >
 > 2.http://tinymce.ax-z.cn/plugins/noneditable.php
 
-
-
 # 效果
 
 ## 文本编辑
 
-![Honeycam 2020-03-20 11-10-41](assert/README/Honeycam 2020-03-20 11-10-41.gif)
+![Honeycam 2020-03-20 11-10-41](./assert/README/Honeycam 2020-03-20 11-10-41.gif)
 
-## 粘贴word
+## 粘贴 word
 
-![Honeycam 2020-03-20 11-16-39](assert/README/Honeycam 2020-03-20 11-16-39.gif)
+![Honeycam 2020-03-20 11-16-39](./assert/README/Honeycam 2020-03-20 11-16-39.gif)
 
 ## 粘贴网页|| 编辑器内容
 
-![Honeycam 2020-03-20 11-20-14](assert/README/Honeycam 2020-03-20 11-20-14.gif)
+![Honeycam 2020-03-20 11-20-14](./assert/README/Honeycam 2020-03-20 11-20-14.gif)
 
 # 预览
 
@@ -58,16 +56,14 @@ npm run serve
 
 # 使用
 
-安装 tinymce-vue
---------------
+## 安装 tinymce-vue
 
 ```
 npm install @tinymce/tinymce-vue -S
 
 ```
 
-下载 tinymce
-----------
+## 下载 tinymce
 
 ```
 npm install tinymce -S
@@ -76,17 +72,17 @@ npm install tinymce -S
 
 复制当前项目这两个文件到你的项目`public目录下`，然后使用
 
-![1584674576713](assert/README/1584674576713.png)
+![1584674576713](./assert/README/1584674576713.png)
 
 ## 组件封装
 
 如图：复制这个项目下的 `src\components\editor.vue`
 
-![1584674693401](assert/README/1584674693401.png)
+![1584674693401](./assert/README/1584674693401.png)
 
 ## 全局使用组件
 
-在mian.js里面
+在 mian.js 里面
 
 ```js
 // 全局使用编辑器
@@ -117,14 +113,14 @@ export default {
 
 ## 编辑器工具栏配置
 
-此处请参照 
+此处请参照
 
 这里主要是在`src\components\editor.vue` 进行配置`plugins`和`toolbar`
 
 ```js
 tinymce.init({
-    selector: '#tinydemo',
-    plugins: "noneditable",
+  selector: "#tinydemo",
+  plugins: "noneditable"
 });
 ```
 
@@ -137,10 +133,8 @@ toolbar: 'undo redo |  formatselect | bold italic forecolor backcolor | alignlef
 
 更多插件使用请参照http://tinymce.ax-z.cn/plugins/noneditable.php
 
-
-
 # 支持
 
-> 如果觉得这篇文章帮到你，请给个star 或请我一杯咖啡😋
+> 如果觉得这篇文章帮到你，请给个 star 或请我一杯咖啡 😋
 
-![1584675261579](assert/README/1584675261579.png)
+![1584675261579](./assert/README/1584675261579.png)
